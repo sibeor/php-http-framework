@@ -8,6 +8,13 @@ ij_formatter_tags_enabled = true
 ij_smart_tabs = false
 ij_visual_guides =
 ij_wrap_on_typing = false
+##
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
 [{*.ctp,*.hphp,*.inc,*.module,*.php,*.php4,*.php5,*.phtml}]
 ij_continuation_indent_size = 4
@@ -242,3 +249,32 @@ ij_php_variable_naming_style = mixed
 ij_php_version_weight = 28
 ij_php_while_brace_force = never
 ij_php_while_on_new_line = false
+
+# editorconfig.org
+[*.php]
+tab_width = 4
+indent_size = 4
+
+[*.html]
+tab_width = 4
+indent_size = 4
+
+[*.xml]
+tab_width = 4
+indent_size = 4
+
+[*.json]
+tab_width = 4
+indent_size = 4
+
+[*.yml]
+tab_width = 4
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+tab_width = 4
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
