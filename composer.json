@@ -1,0 +1,11 @@
+{
+    "name": "sibeor/php-http-framework",
+    "type": "project",
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
