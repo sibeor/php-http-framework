@@ -19,5 +19,8 @@
             "Test\\App\\": "tests/App/",
             "Test\\Framework\\": "tests/Framework/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
     }
 }
