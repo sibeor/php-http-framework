@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Test\App;
@@ -6,6 +7,9 @@ namespace Test\App;
 use App\Example;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @internal
+ */
 class ExampleTest extends TestCase
 {
     public function testSuccess(): void

@@ -1,13 +1,13 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App;
 
-class Example
+  class Example
 {
-    public function do(): int
+    public function do()
     {
         return 42;
     }
-
 }
