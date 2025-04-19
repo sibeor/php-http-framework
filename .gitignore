@@ -79,3 +79,10 @@ fabric.properties
 
 
 /vendor/
+.idea/
+#!.idea/misc.xml
+#!.idea/modules.xml
+#!.idea/php-http-framework.iml
+#!.idea/php.xml
+#!.idea/phpunit.xml
+#!.idea/inspectionProfiles/
