@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App;
 
-  class Example
+final class Example
 {
     public function do()
     {
