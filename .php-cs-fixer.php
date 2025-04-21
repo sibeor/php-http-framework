@@ -25,6 +25,7 @@ return
             '@PHPUnit84Migration:risky' => true,
 
             'no_unused_imports' => true,
+            'no_whitespace_in_blank_line' => false,
             'ordered_imports' => ['imports_order' => ['class', 'function', 'const']],
 
             'no_superfluous_phpdoc_tags' => ['remove_inheritdoc' => true],
