@@ -6,7 +6,7 @@ namespace App;
 
 final class Example
 {
-    public function do()
+    public function do(): int
     {
         // Psalm verification
         /** @psalm-var non-empty-string $foo */
